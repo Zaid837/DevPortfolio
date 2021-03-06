@@ -27,12 +27,17 @@
   </head>
   <body>
     <div class="container">
+      <button class="btn mobile m-icon" id="close" onclick="menu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
       <div class="row pt-4">
         <div class="col-sm-2">
           <button class="btn logo">{ZAID}</button>
         </div>
-        <div class="col-sm-8">
-          <ul class="c-menu desktop">
+        <div class="col-sm-8" id="overlay">
+          <ul class="c-menu desktop" id="mobile-menu">
             <li><a href="#">Design</a></li>
             <li><a href="#">Production</a></li>
             <li><a href="#">Live</a></li>
@@ -40,14 +45,11 @@
           </ul>
         </div>
         <div class="col-sm-2">
-          <button class="btn btn-dark desktop">Contact me</button>
+          <button class="btn btn-dark c-btn desktop">Contact me</button>
         </div>
       </div>
-      <button class="btn mobile m-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </button>
     </div>
+
+    <script src="./sctipt.js"></script>
   </body>
 </html>
