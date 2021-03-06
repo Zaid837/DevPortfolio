@@ -59,7 +59,9 @@ a:hover {
     display: none;
   }
   .m-icon {
+    position: absolute;
     margin-top: 30px;
+    right: 30px;
   }
   .m-icon:focus {
     box-shadow: none;
