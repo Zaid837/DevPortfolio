@@ -8,6 +8,7 @@ body {
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  color: #6a6666;
 }
 a {
   color: #000;
@@ -50,6 +51,40 @@ a:hover {
 .show {
   display: block !important;
 }
+
+/* hero */
+.hero {
+  width: 100%;
+  position: relative;
+  margin-top: -120px;
+}
+.title {
+  color: #000;
+  font-size: 24px;
+  margin-top: 260px;
+}
+.title-sub {
+  font-size: 16px;
+  color: #000;
+}
+.role {
+  position: absolute;
+  font-size: 200px;
+  color: rgba(0, 0, 0, 0.1);
+  margin-left: -18px;
+  top: 340px;
+}
+.social {
+  position: absolute;
+  bottom: 50px;
+}
+.social a {
+  margin-right: 10px;
+}
+.social a i {
+  width: 16px;
+  font-size: 18px;
+}
 /* media queries */
 @media screen and (max-width: 768px) {
   .mobile {
@@ -62,6 +97,7 @@ a:hover {
     position: absolute;
     margin-top: 30px;
     right: 30px;
+    transition: 0.5s;
   }
   .m-icon:focus {
     box-shadow: none;
